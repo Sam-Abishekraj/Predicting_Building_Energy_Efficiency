@@ -19,7 +19,7 @@ except Exception as e:
     st.error(f"An error occurred while loading files: {e}")
     st.stop()
 
-# --- Streamlit App Interface ---
+# Streamlit App Interface 
 
 st.set_page_config(page_title="Building Energy Efficiency Predictor", layout="wide")
 
